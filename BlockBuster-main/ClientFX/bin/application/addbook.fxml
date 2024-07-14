@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddBookController">
+   <children>
+      <Button fx:id="switchToMenu" layoutX="29.0" layoutY="45.0" mnemonicParsing="false" onAction="#switchToMenu" text="back" />
+      <Text layoutX="274.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Book" />
+      <TextField fx:id="id" layoutX="117.0" layoutY="102.0" />
+      <TextField fx:id="name" layoutX="117.0" layoutY="127.0" />
+      <TextField fx:id="description" layoutX="117.0" layoutY="152.0" />
+      <TextField fx:id="author" layoutX="117.0" layoutY="177.0" />
+      <TextField fx:id="pages" layoutX="363.0" layoutY="102.0" />
+      <TextField fx:id="day" layoutX="363.0" layoutY="127.0" />
+      <TextField fx:id="month" layoutX="363.0" layoutY="152.0" />
+      <TextField fx:id="year" layoutX="363.0" layoutY="177.0" />
+      <Text layoutX="29.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="id" wrappingWidth="100.0" />
+      <Text layoutX="29.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="name" wrappingWidth="100.0" />
+      <Text layoutX="29.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="description" wrappingWidth="100.0" />
+      <Text layoutX="29.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="author" wrappingWidth="100.0" />
+      <Text layoutX="312.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="pages" wrappingWidth="100.0" />
+      <Text layoutX="312.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="day" wrappingWidth="100.0" />
+      <Text layoutX="312.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="month" wrappingWidth="100.0" />
+      <Text layoutX="312.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="year" wrappingWidth="100.0" />
+      <Button layoutX="226.0" layoutY="253.0" mnemonicParsing="false" onAction="#addBook" text="Add New Book" />
+   </children>
+</AnchorPane>

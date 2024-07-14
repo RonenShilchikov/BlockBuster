@@ -1,0 +1,1 @@
+[{"id":"3","name":"3","author":"3","description":"3","pages":7,"releaseDay":7,"releaseMonth":7,"releaseYear":1977},{"id":"1","name":"book1","author":"1","description":"1","pages":1,"releaseDay":1,"releaseMonth":1,"releaseYear":2001}]
